@@ -1,0 +1,22 @@
+{
+  "name": "global-js",
+  "version": "1.0.0",
+  "description": "this module helps manage function context(this) and helps manage application global variable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit062/global-js.git"
+  },
+  "keywords": [
+    "global","global-js","context","this"
+  ],
+  "author": "Rohit Salaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit062/global-js/issues"
+  },
+  "homepage": "https://github.com/rohit062/global-js#readme"
+}
