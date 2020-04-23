@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "./node_modules/eslint/bin/eslint.js .",
-    "test:codecov": ""
+    "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "codecov": "^3.6.5",
+    "coveralls": "^3.0.13",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
