@@ -1,3 +1,3 @@
-const global = require('./lib/global');
+const globaljs = require('./lib/global');
 
-module.exports = global;
+module.exports = globaljs;
