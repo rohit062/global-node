@@ -1,7 +1,7 @@
 {
-  "name": "global-js",
+  "name": "globaljs",
   "version": "1.0.0",
-  "description": "this module helps manage function context(this) and helps manage application global variable",
+  "description": "This module helps in solving the problem of managing global variable in nodejs application. Set the global variable using globaljs class and get it anywhere in application using the same class. It helps in writing clean and maintainable code.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,20 +11,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohit062/global-js.git"
+    "url": "git+https://github.com/rohit062/globaljs.git"
   },
   "keywords": [
     "global",
-    "global-js",
-    "context",
-    "this"
+    "globaljs",
+    "Global",
+    "nodejs",
+    "javascript",
+    "variable",
+    "global variable"
   ],
   "author": "Rohit Salaria",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rohit062/global-js/issues"
+    "url": "https://github.com/rohit062/globaljs/issues"
   },
-  "homepage": "https://github.com/rohit062/global-js#readme",
+  "homepage": "https://github.com/rohit062/globaljs#readme",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
