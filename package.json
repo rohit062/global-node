@@ -1,7 +1,7 @@
 {
   "name": "global-js",
   "version": "1.0.0",
-  "description": "this module helps manage function context(this) and helps manage application global variable",
+  "description": "This module helps in solving the problem of managing global variable in nodejs application. Set the global variable using globaljs class and get it anywhere in application using the same class. It helps in writing clean and maintainable code.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -16,8 +16,11 @@
   "keywords": [
     "global",
     "global-js",
-    "context",
-    "this"
+    "Global",
+    "nodejs",
+    "javascript",
+    "variable",
+    "global variable"
   ],
   "author": "Rohit Salaria",
   "license": "ISC",
