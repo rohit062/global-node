@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/rohit062/globaljs.svg?branch=master)](https://travis-ci.org/rohit062/globaljs) [![Coverage Status](https://coveralls.io/repos/github/rohit062/globaljs/badge.svg?branch=master)](https://coveralls.io/github/rohit062/globaljs?branch=master)
-
+[![Coverage Status](https://coveralls.io/repos/github/rohit062/global-js/badge.svg?branch=master)](https://coveralls.io/github/rohit062/global-js?branch=master)[![Build Status](https://travis-ci.org/rohit062/global-js.svg?branch=master)](https://travis-ci.org/rohit062/global-js)
 
 # globaljs 🌍
 This module helps in solving the problem of managing global variable in nodejs application. Set the global variable using globaljs class and get it anywhere in application using the same class. It helps in writing clean and maintainable code.
