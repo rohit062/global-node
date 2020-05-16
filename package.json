@@ -1,7 +1,7 @@
 {
-  "name": "globaljs",
+  "name": "global-node",
   "version": "1.0.0",
-  "description": "This module helps in solving the problem of managing global variable in nodejs application. Set the global variable using globaljs class and get it anywhere in application using the same class. It helps in writing clean and maintainable code.",
+  "description": "This module helps in solving the problem of managing global variable in nodejs application. Set the global variable using global-node class and get it anywhere in application using the same class. It helps in writing clean and maintainable code.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohit062/globaljs.git"
+    "url": "git+https://github.com/rohit062/global-node.git"
   },
   "keywords": [
     "global",
-    "globaljs",
+    "global-node",
     "Global",
     "nodejs",
     "javascript",
@@ -25,9 +25,9 @@
   "author": "Rohit Salaria",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rohit062/globaljs/issues"
+    "url": "https://github.com/rohit062/global-node/issues"
   },
-  "homepage": "https://github.com/rohit062/globaljs#readme",
+  "homepage": "https://github.com/rohit062/global-node#readme",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",

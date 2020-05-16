@@ -1,26 +1,26 @@
-[![Coverage Status](https://coveralls.io/repos/github/rohit062/global-js/badge.svg?branch=master)](https://coveralls.io/github/rohit062/global-js?branch=master) [![Build Status](https://travis-ci.org/rohit062/global-js.svg?branch=master)](https://travis-ci.org/rohit062/global-js)
+[![Coverage Status](https://coveralls.io/repos/github/rohit062/global-node/badge.svg?branch=master)](https://coveralls.io/github/rohit062/global-node?branch=master) [![Build Status](https://travis-ci.org/rohit062/global-node.svg?branch=master)](https://travis-ci.org/rohit062/global-node)
 
-# globaljs 🌍
-This module helps in solving the problem of managing global variable in nodejs application. Set the global variable using globaljs class and get it anywhere in application using the same class. It helps in writing clean and maintainable code.
+# global-node 🌍
+This module helps in solving the problem of managing global variable in nodejs application. Set the global variable using global-node class and get it anywhere in application using the same class. It helps in writing clean and maintainable code.
 
 ## Install instruction
 Below npm v5.0.0 
 
 ``` bash
- $ npm install globaljs --save
+ $ npm install global-node --save
  ```
 
 Above v5.0.0
 
 ``` bash
- $ npm install globaljs 
+ $ npm install global-node 
 ```
 
 ## Usage
 Require the module 
 
 ``` js 
-const Globaljs = require('globaljs');
+const globalNode = require('global-node');
 ```
 
 Basic add and get properties
@@ -28,67 +28,67 @@ Basic add and get properties
 ``` js
 /* 
   in app.js 
-  make a instance of globaljs by just requiring the module
+  make a instance of global-node by just requiring the module
   and set some properties
 */
 
-const Globaljs = require('globaljs');
-Globaljs.setProperty('key', 'value');
-const val = Globaljs.getValue('key');
+const globalNode = require('global-node');
+globalNode.setProperty('key', 'value');
+const val = globalNode.getValue('key');
 console.log(val) // -> value;
 
 /*
   now in some other file just get the variable by requiring the module and calling getValue('key'); function
 */
 
-const val = Globaljs.getValue('key');
+const val = globalNode.getValue('key');
 console.log(val) // -> value;
 
 ```
 
-### ``` Globaljs.getValue(key) ```
+### ``` globalNode.getValue(key) ```
 Get the value of the property.
 
 ```js
-const val = Globaljs.getValue(key);
+const val = globalNode.getValue(key);
 console.log(val)
 ```
 
-### ``` Globaljs.deleteProperty(key) ```
+### ``` globalNode.deleteProperty(key) ```
 Delete the property.
 
 ```js
 // if property doesn't exist it will throw an error
-Globaljs.deleteProperty(key);
+globalNode.deleteProperty(key);
 ```
 
-### ``` Globaljs.listProperty() ```
+### ``` globalNode.listProperty() ```
 List all the properties.
 
 ```js
-Globaljs.setProperty('key', 'value');
-Globaljs.setProperty('key2', 'value2');
-const lst = Globaljs.listProperty() //  returns and array
+globalNode.setProperty('key', 'value');
+globalNode.setProperty('key2', 'value2');
+const lst = globalNode.listProperty() //  returns and array
 console.log(lst) // [ key, key2 ];
 ```
 
-### ``` Globaljs.isPropertyExist(key) ```
+### ``` globalNode.isPropertyExist(key) ```
 Check if property exist.
 
 ```js
-Globaljs.setProperty('key', 'value');
-const isExist = Globaljs.isPropertyExist('key');
+globalNode.setProperty('key', 'value');
+const isExist = globalNode.isPropertyExist('key');
 console.log(isExist) // true;
-isExist = Globaljs.isPropertyExist('nokey');
+isExist = globalNode.isPropertyExist('nokey');
 console.log(isExist) // false;
 ```
 
-### ``` Globaljs.emptyAll() ```
+### ``` globalNode.emptyAll() ```
 Clear all the global properties
 
 ```js
-Globaljs.setProperty('key', 'value');Globaljs.emptyAll()
-const lst = Globaljs.listProperty() //  returns and array
+globalNode.setProperty('key', 'value');globalNode.emptyAll()
+const lst = globalNode.listProperty() //  returns and array
 console.log(lst) // [ ]; // removed all the property from the global object
 ```
 
